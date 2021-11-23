@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url(imgs/shrimp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    opacity: 1;
+    height: 40rem;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    float: right;
+}
+
+.nav {
+    padding: 30px;
+}
+
+.info {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.info>p {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    background-color: orange;
+    border-radius: 3rem;
+}
+
+hr {
+    background-color: orange;
+    width: 20%;
+}
+
+.img {
+    display: flex;
+}
+
+.abt-us {
+    display: flex;
+}
+
+.abt {
+    float: right;
+    margin-right: 100px;
+    text-align: left;
+}
+
+.fas {
+    font-size: 30px;
+    color: orange;
+}
+
+.a {
+    box-sizing: border-box;
+    height: 300px;
+    width: 200px;
+    background-color: orchid;
+    box-shadow: ;
+}
+
+.row1>.a>ul {
+    width: 20px;
+}
